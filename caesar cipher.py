@@ -16,7 +16,6 @@ def encrypt (original_text,shift_amount):
 
     print(f"Here is encoded result: {cipher_text}")
 
-
 #DECRYPT
 def decrypt(original_text, shift_amount):
     output_text=" "
@@ -46,7 +45,7 @@ def caesar(original_text, shift_amount, encode_decode):
     print(f"Here is decoded result: {output_text}")
 
 should_cont=True
-#while should_cont:
+while should_cont:
 
 encrypt(original_text=text,shift_amount=shift)
 decrypt(text,shift)
